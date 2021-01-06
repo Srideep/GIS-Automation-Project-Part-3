@@ -1,11 +1,9 @@
 name: GIS Automation Test and Build
 
 on: [push]
-  branches: [ master ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     strategy:
       matrix:
